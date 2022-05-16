@@ -1,4 +1,1 @@
-Urun ve Sipariþ Tablolarýný tasarladým.
-Urunun Listeleme kodunu yazdým.
-Sipariþ için alýcý ve urun listeme uygun olabilir.
-Unutma ekle sil hala hazýr deðil.
+
