@@ -1,0 +1,5 @@
+CREATE DATABASE ElekrikliAracKiralama
+use ElekrikliAracKiralama
+CREATE TABLE Alicilar(AliciID int primary key IDENTITY,Alici varchar(50),Soyadi varchar(50),AliciAdresi varchar(100),AliciTelefonu varchar(31))
+CREATE TABLE Urunler(UrunID int primary key IDENTITY,UrunAdi varchar(150),UrunFiyat money,StokAdedi int)
+CREATE TABLE Siparisler(SiparisID int primary key IDENTITY,AliciID int FOREIGN KEY REFERENCES Alicilar(AliciID),UrunID int FOREIGN KEY REFERENCES Urunler(UrunID),SiparisAdet int)
